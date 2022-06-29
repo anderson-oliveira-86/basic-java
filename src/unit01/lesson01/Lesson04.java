@@ -29,6 +29,4 @@ public class Lesson04 {
         System.out.println("Com salario de " + salario + " e idade de " + idade + "" +
                 ". Eu posso obter a bolsa de estudo?\nResposta: " + result + "\n");
     }
-
-
 }
