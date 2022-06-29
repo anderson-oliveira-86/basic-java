@@ -3,9 +3,12 @@ package util;
 public class Util {
 
     public static void printTitle(String title){
-        System.out.println("#######################");
-        System.out.println("# " + title + " #");
-        System.out.println("#######################\n");
+        String line = "####";
+        for (int i = 0; i < title.length(); i++) {
+            line = line + "#";
+        }
+        System.out.println(line + "\n# " + title + " #\n" + line +"\n");
+
     }
 
 }
