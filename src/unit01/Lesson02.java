@@ -1,4 +1,4 @@
-package unit01.lesson01;
+package unit01;
 
 import util.Util;
 
