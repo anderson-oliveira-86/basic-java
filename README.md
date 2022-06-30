@@ -18,3 +18,5 @@
 ### unit03
   * Lesson14 - Array - Primeiro Passo
   * Lesson15 - Array - atributo length
+  * Lesson16 - Array - Foreach
+  * Lesson17 - Array - Multidimensional
