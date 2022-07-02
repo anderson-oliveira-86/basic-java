@@ -1,6 +1,6 @@
-package unit01;
+package basic.java.unit01;
 
-import util.Util;
+import basic.java.util.Util;
 
 public class Lesson06 {
     public static void main(String[] args) {

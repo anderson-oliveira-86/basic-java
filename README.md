@@ -16,8 +16,11 @@
   * Lesson12 - Estrutura de Repetição - Break
   * Lesson13 - Estrutura de Repetição - Continue
 ### unit03
-  * Lesson14 - Array - Primeiro Passo
-  * Lesson15 - Array - atributo length
-  * Lesson16 - Array - Foreach
-  * Lesson17 - Array - Multidimensional
-  * Lesson18 - 
+  * Lesson14 - Array Primeiro Passo
+  * Lesson15 - Array atributo length
+  * Lesson16 - Array Foreach
+  * Lesson17 - Array Multidimensional - Foreach
+  * Lesson18 - Array Multidimensional - Inicialização
+### unit04
+  * Lesson19 
+  * Lesson20

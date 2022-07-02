@@ -1,8 +1,6 @@
-package unit01;
+package basic.java.unit01;
 
-import util.Util;
-
-import java.sql.SQLOutput;
+import basic.java.util.Util;
 
 public class Lesson02 {
     public static void main(String[] args) {

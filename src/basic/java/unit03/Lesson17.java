@@ -1,10 +1,10 @@
-package unit03;
+package basic.java.unit03;
 
-import util.Util;
+import basic.java.util.Util;
 
 public class Lesson17 {
     public static void main(String[] args) {
-        Util.printTitle("Array - Multidimensional");
+        Util.printTitle("Array Multidimensional - Foreach");
 
         int[][] arrayMultidimensional = new int[4][4];
 
