@@ -10,6 +10,9 @@ public class Estudante {
     private String coordenador;
     private String[] materias;
 
+    public Estudante() {
+    }
+
     // Sobrecarga de construtor (contrutor com apenas os dados necessários para matricula do aluno na escola,
     //  as informações de serie, coordenador e matérias do ano letivo
     //  serão inseridas posteriormente pela coordenação da escola)
@@ -25,6 +28,15 @@ public class Estudante {
     // neste método setIdade com a sobrecarga é possível inserir a idade tanto como int, quanto como String
     public void setIdade(String idade){
         this.idade = Integer.parseInt(idade);
+    }
+
+    public void imprime(){
+        System.out.println("################\n Dados do Aluno \n################" +
+                "\n Nome: " + this.name +
+                "\n Idade: " + this.idade +
+                "\n Responsável: " + this.responsavel +
+                "\n Telefone: " + this.telefone +
+                "\n Endereço: " + this.endereco);
     }
 
     public String getName() {
