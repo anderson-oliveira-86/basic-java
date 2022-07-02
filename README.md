@@ -22,5 +22,14 @@
   * Lesson17 - Array Multidimensional - Foreach
   * Lesson18 - Array Multidimensional - Inicialização
 ### unit04
-  * Lesson19 
-  * Lesson20
+  * Lesson19 - Orientação Objetos - Fundamentos Básicos
+  * Lesson20 - Orintação Objetos - Bloco de Inicialização
+  * Lesson21 - Orientação Objetos - Modificador static
+  * Lesson22 - Orientação Objetos - Métodos estáticos
+  * Lesson23 - Orientação Objetos - Bloco de inicialização estático
+  * Lesson24 - Orientação Objetos - Associação (Arrays com Objetos)
+  * Lesson25 - Orientação Objetos - Associação unidirecional (um para muitos)
+  * Lesson26 - Orientação Objetos - Associação unidirecional (muitos para um)
+  * Lesson27 - Orientação Objetos - Associação bidirecional
+### unit05
+  * Lesson28 - Orientação Objetos - Herança
