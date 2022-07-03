@@ -17,4 +17,9 @@ public class Developer extends Employee{
     public void calculaBonus() {
         this.salario = this.salario + salario * 0.05;
     }
+
+    @Override
+    public void imprime() {
+        System.out.println("imprime");
+    }
 }

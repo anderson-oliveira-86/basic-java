@@ -19,4 +19,9 @@ public class Manager extends Employee{
                 ", salario=" + salario +
                 '}';
     }
+
+    @Override
+    public void imprime() {
+        System.out.println("imprime");
+    }
 }

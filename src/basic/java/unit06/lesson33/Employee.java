@@ -1,6 +1,6 @@
 package basic.java.unit06.lesson33;
 
-public abstract class Employee {
+public abstract class Employee extends Person {
     protected String name;
     protected double salario;
 
