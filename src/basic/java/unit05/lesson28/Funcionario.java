@@ -3,8 +3,18 @@ package basic.java.unit05.lesson28;
 public class Funcionario extends Pessoa{
     private double salario;
 
-    public Funcionario(String nome){
-        super(nome); //utilizando o construtor da classe Pessoa
+    static{
+        System.out.println("JVM carregando a classe -> Dentro do bloco STATIC de inicialização da classe Funcionario");
+    }
+    {
+        System.out.println("Executa antes de instanciar o objeto -> Dentro do bloco 1 de inicialização da classe Funcionario");
+    }
+    {
+        System.out.println("Executa antes de instanciar o objeto -> Dentro do bloco 2 de inicialização da classe Funcionario");
+    }
+    public Funcionario(String nome , String cpf){
+        super(nome , cpf); //utilizando o construtor da classe Pessoa(String nome, String cpf )
+        System.out.println("Instanciando o Objeto -> Dentro do construtor Funcionario(String nome)");
     }
 
     public double getSalario() {

@@ -5,13 +5,25 @@ public class Pessoa {
     protected String cpf;
     protected Endereco endereco;
 
+    static{
+        System.out.println("JVM carregando a classe -> Dentro do bloco STATIC de inicialização da classe Pessoa");
+    }
+    {
+        System.out.println("Executa antes de instanciar o objeto -> Dentro do bloco 1 de inicialização da classe Pessoa");
+    }
+    {
+        System.out.println("Executa antes de instanciar o objeto -> Dentro do bloco 2 de inicialização da classe Pessoa");
+    }
+
     public Pessoa(String nome){
+        System.out.println("Instanciando o Objeto -> Dentro do construtor Pessoa(String nome)");
         this.nome = nome;
     }
 
     public Pessoa(String nome , String cpf){
         this(nome); //chamando o primeiro construtor Pessoa com parametro nome
         this.cpf = cpf;
+        System.out.println("Instanciando o Objeto -> Dentro do construtor Pessoa(String nome, String cpf)");
     }
 
     public void imprimir(){
