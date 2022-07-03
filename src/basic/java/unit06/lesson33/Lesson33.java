@@ -6,10 +6,10 @@ public class Lesson33 {
     public static void main(String[] args) {
         Util.printTitle("Orientação Objetos - Classes abstratas");
 
-        Manager bulman = new Manager("Bulman" , 1000);
+        Manager bulman = new Manager("Bulman" , 5000);
         System.out.println(bulman);
 
-        Developer developer = new Developer("Anderson" , 100);
+        Developer developer = new Developer("Anderson" , 1000);
         System.out.println(developer);
     }
 }

@@ -12,4 +12,9 @@ public class Developer extends Employee{
                 ", salario=" + salario +
                 '}';
     }
+
+    @Override
+    public void calculaBonus() {
+        this.salario = this.salario + salario * 0.05;
+    }
 }
