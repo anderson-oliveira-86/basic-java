@@ -1,6 +1,38 @@
 package basic.java.unit06.lesson32;
 
 public enum TipoCliente {
-    PESSOA_FISICA,
-    PESSOA_JURIDICA
+    PESSOA_FISICA(1 , "Pessoa Física"),
+    PESSOA_JURIDICA(2 , "Pessoa Juridica");
+
+    private int value;
+    private String relatorio;
+
+    TipoCliente(int value, String relatorio) {
+        this.value = value;
+        this.relatorio = relatorio;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
+
+    public String getRelatorio() {
+        return relatorio;
+    }
+
+    public void setRelatorio(String relatorio) {
+        this.relatorio = relatorio;
+    }
+
+    @Override
+    public String toString() {
+        return "TipoCliente{" +
+                "value=" + value +
+                ", relatorio='" + relatorio + '\'' +
+                '}';
+    }
 }
