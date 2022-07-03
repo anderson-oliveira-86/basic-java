@@ -1,11 +1,17 @@
 package basic.java.unit05.lesson28;
 
 public class Pessoa {
-    private String nome;
-    private String cpf;
-    private Endereco endereco;
+    protected String nome;
+    protected String cpf;
+    protected Endereco endereco;
 
-    public Pessoa() {
+    public Pessoa(String nome){
+        this.nome = nome;
+    }
+
+    public Pessoa(String nome , String cpf){
+        this(nome); //chamando o primeiro construtor Pessoa com parametro nome
+        this.cpf = cpf;
     }
 
     public void imprimir(){

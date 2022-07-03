@@ -8,8 +8,7 @@ public class Lesson28 {
 
         Endereco endereco = new Endereco("Rua Tapajós" , 1001 , "01234-567");
 
-        Funcionario funcionario = new Funcionario();
-        funcionario.setNome("Pedrinho");
+        Funcionario funcionario = new Funcionario("Pedrinho");
         funcionario.setCpf("123.456.789-01");
 
         funcionario.setEndereco(endereco);
