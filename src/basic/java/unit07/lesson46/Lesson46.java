@@ -1,10 +1,12 @@
 package basic.java.unit07.lesson46;
 
+import basic.java.util.Util;
+
 import java.util.Scanner;
 
 public class Lesson46 {
     public static void main(String[] args) {
-        // 104 - Exceções pt 10 - Exceção customizada
+        Util.printTitle("Exceções pt 10 - Exceção customizada");
 
         try {
             logar();
