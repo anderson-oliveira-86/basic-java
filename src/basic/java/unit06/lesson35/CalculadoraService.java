@@ -8,5 +8,9 @@ public class CalculadoraService {
         System.out.println("Produto : " + produto.getNome());
         System.out.println("Valor : " + produto.getValor());
         System.out.println("Imposto : " + imposto);
+        if(produto instanceof Tomate){
+            Tomate tomate = (Tomate) produto;
+            System.out.println(tomate.getDataValidade());
+        }
     }
 }
