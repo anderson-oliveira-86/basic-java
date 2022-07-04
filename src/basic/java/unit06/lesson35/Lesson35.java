@@ -12,12 +12,17 @@ public class Lesson35 {
         Computador computador = new Computador("Intel" , 4000);
         CalculadoraService.calcularImposto(computador);
 
+        System.out.print("\n");
         Util.printTitle("Orientação Objetos - Polimorfismo pt 01 - Introdução");
 
         Produto produto1 = new Computador("Intel" , 4000);
         Produto produto2 = new Tomate("Italiano" ,5);
+        Televisao televisao = new Televisao("fullHD" , 10000);
         System.out.println(produto1);
         System.out.println("######################################################");
         System.out.println(produto2);
+        System.out.println("######################################################");
+        System.out.println(televisao);
+
     }
 }
