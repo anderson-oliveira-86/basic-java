@@ -17,5 +17,8 @@ public class Lesson34 {
 
         databaseLoader.checkPermission();
         fileLoader.checkPermission();
+
+        DatabaseLoader.retrieveMaxDataSize();
+        DataLoader.retrieveMaxDataSize();
     }
 }
