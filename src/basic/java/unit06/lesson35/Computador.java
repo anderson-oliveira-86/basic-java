@@ -13,4 +13,12 @@ public class Computador extends Produto{
         System.out.println("calculando o imposto do computador");
         return this.valor * IMPOSTO;
     }
+
+    @Override
+    public String toString() {
+        return "Computador{" +
+                "nome='" + nome + '\'' +
+                ", valor=" + valor +
+                '}';
+    }
 }
