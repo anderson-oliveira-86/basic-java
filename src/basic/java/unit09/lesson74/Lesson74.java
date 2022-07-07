@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class Lesson74 {
 
     public static void main(String[] args) {
-        Util.printTitle("Classes Utilitárias - Regex pt 01 - Pattern e Matcher");
+        Util.printTitle("Classes Utilitárias - Regex pt 02 - Pattern e Matcher - Meta caracteres");
 
         // Meta Characteres
         test01();
