@@ -5,7 +5,7 @@ import basic.java.util.Util;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class Lesson87 {
+public class Lesson86 {
     public static void main(String[] args) {
         Util.printTitle("Classes Utilitárias - NIO pt 01 - Path, Paths, Files pt 01");
 
