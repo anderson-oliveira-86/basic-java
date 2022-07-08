@@ -11,7 +11,7 @@ public class Lesson82 {
         Util.printTitle("Classes Utilitárias - IO pt 03 - FileReader");
 
         File file = new File("file.txt");
-        try (FileReader fr = new FileReader(file)){
+        try (FileReader fr = new FileReader(file)) {
             char[] in = new char[30];
             fr.read(in);
 
@@ -20,19 +20,31 @@ public class Lesson82 {
                 System.out.print(c);
             }
 
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+
+        File file2 = new File("file.txt");
+        try (FileReader fr = new FileReader(file2)) {
+            int i;
+            while ((i = fr.read()) != -1) {
+                System.out.print((char) i);
+            }
 
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
 
+        File file3 = new File("file.txt");
+        try (FileReader fr = new FileReader(file3)) {
+            char[] in = new char[1000];
+            int size = fr.read(in);
+            System.out.println(size);
 
-        File file2 = new File("file.txt");
-        try (FileReader fr = new FileReader(file2)){
-            int i;
-            while ((i = fr.read()) != -1){
-                System.out.print((char)i);
+            for (char c :
+                    in) {
+                System.out.print(c);
             }
-
 
         } catch (Exception e) {
             throw new RuntimeException(e);
