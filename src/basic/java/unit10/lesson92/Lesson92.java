@@ -1,5 +1,7 @@
 package basic.java.unit10.lesson92;
 
+import basic.java.util.Util;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -10,6 +12,8 @@ import java.nio.file.attribute.FileTime;
 
 public class Lesson92 {
     public static void main(String[] args) throws IOException {
+
+        Util.printTitle("Classes Utilitárias - NIO pt 07 - BasicFileAttributes pt 02");
         Path path = Paths.get("pasta2/new.txt");
         BasicFileAttributes basicFileAttributes = Files.readAttributes(path, BasicFileAttributes.class);
         FileTime creationTime = basicFileAttributes.creationTime();
