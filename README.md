@@ -100,3 +100,4 @@
   * Lesson88 - Classes Utilitárias - NIO pt 03 - Normalização
   * Lesson89 - Classes Utilitárias - NIO pt 04 - Resolvendo Paths
   * Lesson90 - Classes Utilitárias - NIO pt 05 - Relativize
+  * Lesson91 - Classes Utilitárias - NIO pt 06 - BasicFileAttributes pt 01
