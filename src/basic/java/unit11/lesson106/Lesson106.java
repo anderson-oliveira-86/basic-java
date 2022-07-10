@@ -29,7 +29,8 @@ public class Lesson106 {
         }
         System.out.println("\nSorting com Collections.sort(hqs) utilizando a implementação Comparator\n");
 
-        Collections.sort(hqs , new HQByIdComparator());
+//        Collections.sort(hqs , new HQByIdComparator());
+        hqs.sort(new HQByIdComparator());
 
         for (HQ hq :
                 hqs) {
