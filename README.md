@@ -110,3 +110,5 @@
   * Lesson98 - Classes Utilitárias - NIO pt 13 - PathMatcher pt 01
   * Lesson99 - Classes Utilitárias - NIO pt 15 - ZipOutputStream
   * Lesson100 - Classes Utilitárias - Serialization pt 01
+### unit10
+  * Lesson101 - Coleções pt 01 - equals pt 01
