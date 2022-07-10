@@ -6,11 +6,21 @@ public class HQ implements Comparable<HQ> {
     private Long id;
     private String nome;
     private double valor;
+    private int quantidade;
+
+    public HQ() {
+    }
 
     public HQ(Long id, String nome, double valor) {
+        this();
         this.id = id;
         this.nome = nome;
         this.valor = valor;
+    }
+
+    public HQ(Long id, String nome, double valor, int quantidade) {
+        this(id, nome, valor);
+        this.quantidade = quantidade;
     }
 
     public Long getId() {
@@ -37,12 +47,21 @@ public class HQ implements Comparable<HQ> {
         this.valor = valor;
     }
 
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
+    }
+
     @Override
     public String toString() {
         return "HQ{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", valor=" + valor +
+                ", quantidade=" + quantidade +
                 '}';
     }
 
