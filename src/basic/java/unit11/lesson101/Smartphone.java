@@ -41,9 +41,10 @@ public class Smartphone {
     }
 
     @Override
-    public int hashCode() {
-        int result = getSerialNumber().hashCode();
-        result = 31 * result + getMarca().hashCode();
-        return result;
+    public String toString() {
+        return "Smartphone{" +
+                "serialNumber='" + serialNumber + '\'' +
+                ", marca='" + marca + '\'' +
+                '}';
     }
 }
