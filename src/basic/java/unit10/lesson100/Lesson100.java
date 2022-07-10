@@ -14,6 +14,8 @@ public class Lesson100 {
         Util.printTitle("Classes Utilitárias - Serialization pt 01");
 
         Aluno aluno = new Aluno(1L , "Anderson" , "123456");
+        Turma turma = new Turma("Maratona Java");
+        aluno.setTurma(turma);
 
         serializar(aluno);
         deserializar();
