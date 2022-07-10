@@ -69,23 +69,13 @@ public class HQ implements Comparable<HQ> {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         HQ hq = (HQ) o;
-
-        if (Double.compare(hq.valor, valor) != 0) return false;
-        if (id != null ? !id.equals(hq.id) : hq.id != null) return false;
-        return nome != null ? nome.equals(hq.nome) : hq.nome == null;
+        return Objects.equals(id, hq.id) && Objects.equals(nome, hq.nome);
     }
 
     @Override
     public int hashCode() {
-        int result;
-        long temp;
-        result = id != null ? id.hashCode() : 0;
-        result = 31 * result + (nome != null ? nome.hashCode() : 0);
-        temp = Double.doubleToLongBits(valor);
-        result = 31 * result + (int) (temp ^ (temp >>> 32));
-        return result;
+        return Objects.hash(id, nome);
     }
 
     @Override
