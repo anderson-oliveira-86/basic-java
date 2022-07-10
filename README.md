@@ -104,3 +104,9 @@
   * Lesson92 - Classes Utilitárias - NIO pt 07 - BasicFileAttributes pt 02
   * Lesson93 - Classes Utilitárias - NIO pt 08 - DosFileAttribute
   * Lesson94 - Classes Utilitárias - NIO pt 09 - PosixFileAttributes
+  * Lesson95 - Classes Utilitárias - NIO pt 10 - DirectoryStream
+  * Lesson96 - Classes Utilitárias - NIO pt 11 - SimpleFileVisitor pt 01
+  * Lesson97 - Classes Utilitárias - NIO pt 12 - SimpleFileVisitor pt 02
+  * Lesson98 - Classes Utilitárias - NIO pt 13 - PathMatcher pt 01
+  * Lesson99 - Classes Utilitárias - NIO pt 15 - ZipOutputStream
+  * Lesson100 - Classes Utilitárias - Serialization pt 01

@@ -8,7 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class Lesson96 {
+public class Lesson95 {
     public static void main(String[] args) {
 
         Util.printTitle("Classes Utilitárias - NIO pt 10 - DirectoryStream");
