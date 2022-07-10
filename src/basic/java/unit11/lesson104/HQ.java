@@ -2,7 +2,7 @@ package basic.java.unit11.lesson104;
 
 import java.util.Objects;
 
-public class HQ {
+public class HQ implements Comparable<HQ> {
     private Long id;
     private String nome;
     private double valor;
@@ -68,4 +68,26 @@ public class HQ {
         result = 31 * result + (int) (temp ^ (temp >>> 32));
         return result;
     }
+
+    @Override
+    public int compareTo(HQ o) {
+        return this.nome.compareTo(o.getNome());
+    }
+
+    //compareTo feito na mão (entendendo a lógica)
+//    @Override
+//    public int compareTo(HQ hq) {
+//        //negativo se o this < hq
+//        //se this == hq, return 0
+//        //positivo se o this > hq
+//        if(this.id < hq.getId()){
+//            return -1;
+//        }else if(this.id > hq.getId()){
+//            return 1;
+//        }else{
+//            return 0;
+//        }
+//    }
+
+
 }
