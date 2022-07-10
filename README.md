@@ -112,4 +112,6 @@
   * Lesson100 - Classes Utilitárias - Serialization pt 01
 ### unit10
   * Lesson101 - Coleções pt 01 - equals pt 01
-  * Lesson102 - Coleções pt 06 - List pt 01
+  * Lesson102 - Coleções pt 06 - List pt 01 e 02
+  * Lesson103 - Coleções pt 08 - List pt 03
+  * Lesson104 - Coleções pt 09 - Sorting lists pt 01
