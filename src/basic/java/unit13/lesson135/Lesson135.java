@@ -20,7 +20,6 @@ public class Lesson135 {
 
         Quadrinho quadrinho2 = QuadrinhoRepository.findByTitle("Drifters")
                 .orElseGet(() -> new Quadrinho(3, "Drifters", 20));
-
         System.out.println(quadrinho2);
 
 
