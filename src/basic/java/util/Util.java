@@ -9,4 +9,8 @@ public class Util {
         }
         System.out.println(line + "\n# " + title + " #\n" + line + "\n");
     }
+
+    public static void nextLine() {
+        System.out.println("\n----------------------------------------\n");
+    }
 }
