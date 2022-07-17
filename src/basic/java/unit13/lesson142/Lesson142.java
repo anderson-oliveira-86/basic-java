@@ -2,7 +2,6 @@ package basic.java.unit13.lesson142;
 
 import basic.java.util.Util;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class Lesson142 {
