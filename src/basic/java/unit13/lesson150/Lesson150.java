@@ -6,7 +6,6 @@ import basic.java.unit13.lesson147.Promotion;
 import basic.java.util.Util;
 
 import java.util.*;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class Lesson150 {
