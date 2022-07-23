@@ -6,7 +6,7 @@ public class Lesson155 implements Runnable{
     private Account account = new Account();
 
     public static void main(String[] args) {
-        Util.printTitle("Threads pt 05 - Sincronismo de thread pt 01");
+        Util.printTitle("Threads pt 06 - Sincronismo de thread pt 02");
 
         Lesson155 threadAccountTest = new Lesson155();
         Thread t1 = new Thread(threadAccountTest , "Hestia");
@@ -27,7 +27,9 @@ public class Lesson155 implements Runnable{
         }
     }
 
-    private void withdrawl(int amount){
+    //Método sincronizado, evitando o paralelismo.
+    //também é possível sincronizar apenas a instancia (account)
+    private synchronized void withdrawl(int amount){
         if(account.getBalance() >= amount){
             System.out.println(Thread.currentThread().getName() + " está indo sacar dinheiro $");
             account.withdrawl(amount);
